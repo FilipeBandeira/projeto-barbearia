@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    /* Com a posição absoluta podemos colocar as informações onde quiser na página, e a relative pra ficar dentro */
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+/* Deixar tudo na mesma linha */
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
