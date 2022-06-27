@@ -1,19 +1,50 @@
 @charset "UTF-8";
 
-body {
-        text-align: center;
-        background-color: #CCCCCC;
+.principal {
+    background-color: #CCCCCC;  
+    padding: 30px; 
 }
 
+.tituloprincipal {
+    padding-left: 20px;
+}
 #banner {
     width: 100%;
 }
+
+.subtitulo {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
         
 #missao {
-        font-size: 20px;
-
+    font-size: 20px;
 }
 
 em > strong {
     color: red;
+}
+
+ul{
+    /* Assim podemos quebrar a linha e trabalhar com os dois lados, como uma tabela. */
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.beneficios {
+    background-color: white;
+    padding: 20px;
+}
+
+.itens{
+    font-style: italic;
+}
+
+.imgbeneficios {
+    width: 50%;
 }
