@@ -73,7 +73,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-.produto-preco {
+.produto-descricao {
     font-size: 18px;
 }
 
@@ -93,5 +93,4 @@ footer {
     color: white;
     font-size: 13px;
     margin: 20px 0 0;
-    
 }
