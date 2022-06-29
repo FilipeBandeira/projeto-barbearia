@@ -32,6 +32,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -43,10 +48,24 @@ nav a {
     text-align: center;
     width: 30%;
     vertical-align: top;
-    background-color: #CCCCCC;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid #000000;
+    /* O border realiza as configutações da borda */
+    border-radius: 10px;
+}
+
+.produtos li:hover { /*Mudar a cor quando passar com o mouse*/
+    border-color: #c78c19;  
+}
+
+.produtos li:active{ /*Mudar a cor quando clicar*/
+    border-color: #088c19;
+}
+
+.produtos li:hover h2 { /*Muda o tamanho da letra quando passar com o mouse, o hover é uma pseudo class*/
+    font-size: 34px;
 }
 
 .produtos h2 {
@@ -61,4 +80,18 @@ nav a {
 .produto-preco {
     font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url('../imagens2/bg.jpg');
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+    
 }
