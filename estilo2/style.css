@@ -157,3 +157,40 @@ form label, form legend{
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+.banner {
+    width: 100%;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;   
+    clear: left;
+    /* O clear limpa o float */
+}
+
+.principal p{
+    margin: 0 0 1em;
+    /* Margem proporcional ao tamanho da fonte */
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    /*O float deixamos o elemento flutuando */
+    margin:  0 20px 20px 0;
+    /* Cima, direita, baixo, esquerda  */
+}
+
+.imgbeneficios {
+    width: 60%;
+}

@@ -5,38 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia Alura</title>
-    <link rel="stylesheet" href="estilo/style.css">
-    
+    <link rel="stylesheet" href="estilo2/style.css">
+    <link rel="stylesheet" href="reset.css/reset.css">
 </head>
 <body>
 
     <header>
-        <h1 class="tituloprincipal">Barbearia Alura</h1>
+        <div class="caixa">
+            <h1><img src="imagens2/logo.png" alt="logo"></h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="projeto001.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
-    <img id="banner" src="banner/banner.jpg" alt="banner">
+    <img class="banner" src="banner/banner.jpg" alt="banner">
+        <!--Comportamento-identificador, estilo-classe  -->
+    <main>
+        <section class="principal">
+            
+                <h2 class="subtitulo">Sobre a Barbearia Alura</h2>
+            
+                <img class="utensilios" src="imagens2/utensilios.jpg" alt="utensilios">
 
-    <div class="principal">
-        <h2 class="subtitulo">Sobre a Barbearia Alura</h2>
+                <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+            
+                <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+            
+                <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+        </section>
 
-        <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
-        
-        <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
-        
-        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-    </div>
+        <section class="beneficios">
+            
+            <h3 class="subtitulo">Benefícios</h3>
+           
+            <ul class="itens">
+                <li>Atendimento aos clientes</li>
+                <li>Espaço Diferenciado</li>
+                <li>Localização</li>
+                <li>Profissionais Qualificados</li>
+            </ul>
+            
+            <img src="banner/beneficios.jpg" alt="beneficios" class="imgbeneficios">
+        </section>
+    </main>
 
-    <div class="beneficios">
-        <h3 class="subtitulo">Benefícios</h3>
-
-        <ul class="itens">
-            <li>Atendimento aos clientes</li>
-            <li>Espaço Diferenciado</li>
-            <li>Localização</li>
-            <li>Profissionais Qualificados</li>
-        </ul>
-
-        <img src="banner/beneficios.jpg" alt="beneficios" class="imgbeneficios">
-    </div>
+    <footer class="footer">
+        <img src="imagens2/logo-branco.png" alt="rodape">
+        <p class="copyright">&copy; Copyright Barbearia Alura - 2022</p>
+    </footer>
 </body>
 </html>
