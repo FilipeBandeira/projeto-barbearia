@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+:root {
+    --fonte1: 'Montserrat', sans-serif;
+    --fonte2: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.fonte {
+    font-family: var(--fonte1)
+} 
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
@@ -167,7 +178,7 @@ form label, form legend{
     font-size: 2em;
     margin: 0 0 1em;   
     clear: left;
-    /* O clear limpa o float */
+    /* O clear limpa o float, para não juntar os componentes*/
 }
 
 .principal p{
@@ -186,7 +197,7 @@ form label, form legend{
 .utensilios {
     width: 120px;
     float: left;
-    /*O float deixamos o elemento flutuando */
+    /*O float deixamos o elemento flutuando e assim podemos colocar texto ao lado da imagem*/
     margin:  0 20px 20px 0;
     /* Cima, direita, baixo, esquerda  */
 }
