@@ -180,19 +180,21 @@ form label, form legend{
     margin: 0 0 1em;   
     clear: left;
     /* O clear limpa o float, para não juntar os componentes*/
+    /* color: rgba(0, 0, 0, 0.3); */
+    /* text-shadow: 2px 2px red; sombras no texto*/
 }
 
 .subtitulo:first-letter {
     font-weight: bold;
 }
 
-.subtitulo:before {
+/* .subtitulo:before {
     content: "[ ";
 }
 
 .subtitulo:after {
     content: " ]";
-}
+} */
 
 /* .p:first-line {
     font-style: italic;
@@ -259,6 +261,14 @@ form label, form legend{
 
 .imgbeneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+    /* box-shadow = sombras */
+}
+
+.imgbeneficios:hover {
+    opacity: 0.3;
 }
 
 .mapa {
