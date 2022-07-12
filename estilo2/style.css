@@ -99,7 +99,7 @@ nav a:hover {
     text-align: center;
     background: url('../imagens2/bg.jpg');
     padding: 40px 0;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .copyright {
